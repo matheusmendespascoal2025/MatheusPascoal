@@ -18,3 +18,6 @@ let aluno1 = {
   anoLetivo: "2ºsérie",
   materiasFavoritas: ["Geografia","Programação","Arte"]
 }
+
+const objeto = document.querySelector("#aluno");
+objeto.textContent = aluno1.nome;
